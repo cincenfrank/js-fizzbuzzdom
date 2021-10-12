@@ -16,8 +16,8 @@ for (let i = 1; i <= 100; i++) {
   // Instantiation of a blank text variable
   let cardTextContent = "";
 
-  // check current cardTextContent. Adds required classis in
-  // case of fizzbuzz, fizz or buzz and always define
+  // check variables previously defined. Adds required classes
+  // in case of fizzbuzz, fizz or buzz and always define
   // cardTextContent value
   if (isFizzBuzz) {
     fizzCard.classList.add("fizz-card--fizz-buzz");
