@@ -1,0 +1,30 @@
+h1 {
+  font-size: 70px;
+}
+.row-cols-7 > * {
+  flex: 0 0 auto;
+  width: calc(100% / 7);
+  /* display: inline-block; */
+}
+
+.bg-dark.custom-bg {
+  background-color: #102a3c !important;
+}
+
+.fizz-card {
+  color: black;
+  background-color: #3f7aa9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fizz-card--fizz {
+  background-color: #60cc98;
+}
+.fizz-card--buzz {
+  background-color: #f0cf5b;
+}
+.fizz-card--fizz-buzz {
+  background-color: #d14960;
+}
