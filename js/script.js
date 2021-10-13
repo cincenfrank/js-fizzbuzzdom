@@ -5,9 +5,12 @@ for (let i = 1; i <= 100; i++) {
   // Creation of column div
   const col = document.createElement("div");
   col.classList.add("col");
+  const ratio = document.createElement("div");
+  ratio.classList.add("ratio", "ratio-1x1");
+  col.appendChild(ratio);
   // Creation of base fizz-card div
   const fizzCard = document.createElement("div");
-  fizzCard.classList.add("ratio", "ratio-1x1", "fizz-card");
+  fizzCard.classList.add("fizz-card");
 
   // Declaration of check variables
   const isFizz = i % 3 === 0;
@@ -33,8 +36,8 @@ for (let i = 1; i <= 100; i++) {
   }
   // assign cardTextContent to fizzCard
   fizzCard.textContent = cardTextContent;
-  // append fizzCard to col element
-  col.appendChild(fizzCard);
+  // append fizzCard to ratio element
+  ratio.appendChild(fizzCard);
   // append col element to row element
   row.append(col);
 }

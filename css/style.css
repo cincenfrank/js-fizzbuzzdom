@@ -14,6 +14,8 @@ h1 {
 .fizz-card {
   color: black;
   background-color: #3f7aa9;
+}
+.ratio > div {
   display: flex;
   justify-content: center;
   align-items: center;
